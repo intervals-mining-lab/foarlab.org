@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-brand {
     color: #fed136;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: "Helvetica Neue", Helvetica, Arial, cursive
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 1.7em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s
@@ -198,7 +198,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url(../img/header-bg.jpg);
+    /*background-image: url(../img/header-bg.jpg);*/
+    background-color: #444444;
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -232,6 +233,16 @@ header .intro-text .intro-heading {
     margin-bottom: 25px
 }
 
+
+header .text-muted {
+    color: white;
+    font-size: 17px;
+}
+
+header .col-md-4 {
+    padding-bottom: 40px;
+}
+
 @media (min-width: 768px) {
     header .intro-text {
         padding-top: 100px;
@@ -255,9 +266,8 @@ header .intro-text .intro-heading {
         margin-bottom: 50px
     }
 
-    header .text-muted {
-        color: white;
-        font-size: 17px;
+    header .col-md-4 {
+        padding-bottom: 0px;
     }
 }
 
