@@ -807,3 +807,16 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136
 }
+
+.section-text {
+    font-size: 16px;
+    color: black;
+}
+
+.section-text a {
+    color: black;
+    text-decoration: underline;
+}
+.section-text li {
+    padding: 10px 0px;
+}
