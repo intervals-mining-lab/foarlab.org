@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-xl {
-    color: #fff;
+    color: black;
     background-color: #fed136;
     border-color: #fed136;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
-    color: #fff;
+    color: black;
     background-color: #fec503;
     border-color: #f6bf01
 }
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    /*background-image: url(../img/header-bg.jpg);*/
+    background-image: url(../img/header-bg.jpg);
     background-color: #444444;
     background-repeat: none;
     background-attachment: scroll;
@@ -606,6 +606,10 @@ section#contact {
     background-repeat: no-repeat
 }
 
+section#contact .section-subheading {
+    color: #fff;
+}
+
 section#contact .section-heading {
     color: #fff
 }
@@ -819,4 +823,28 @@ body {
 }
 .section-text li {
     padding: 10px 0px;
+}
+
+
+.fa.fa-icon {
+    background-image: url(../img/icons.png);
+    display: block;
+    width: 97px;
+    height: 97px;
+    margin: 7px 7px;
+}
+
+.fa.fa-foa {
+  background-position-x: 702px;
+  background-position-y: 268px;
+}
+
+.fa.fa-fields-application {
+  background-position-x: 603px;
+  background-position-y: 271px;
+}
+
+.fa.fa-publications {
+  background-position-x: 508px;
+  background-position-y: 268px;
 }
